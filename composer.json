@@ -123,6 +123,9 @@
         "patches": {
             "drupal/paragraphs": {
               "Drupal Paragraphs missing langcode /project/paragraphs/issues/2901390": "https://www.drupal.org/files/issues/paragraphs-missing-langcode-2901390-9.patch"     
+            },
+            "drupal/draggableviews": {
+                "Draggable Views fix for duplicates in a view": "https://www.drupal.org/files/issues/2018-11-10/draggableviews_displays.03-8.x-1.2.patch"
             }
         }
     }
