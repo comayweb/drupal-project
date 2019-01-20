@@ -1,0 +1,24 @@
+name: SHC D8
+type: theme
+description: 'The custom theme for the Drupal 8 build of Stable Hollow Construction, built in May 2016 by Adrian M. Nolt (adrian@rosewood.us.com) and designed by Matt Feener (matt@rosewood.us.com).'
+core: 8.x
+base theme: classy
+
+libraries:
+  - shcD8/global-styling
+  - shcD8/fonts
+regions:
+  page_top: 'Page Top'
+  nav: Navigation
+  branding: Branding
+  header: Header
+  breadcrumb: Breadcrumbs
+  highlighted: System Messages
+  help: Help Messages
+  content: Page Content
+  postscript: Postscript Gallery
+  footer1: Footer 1
+  footer2: Footer 2
+  footer3: Footer 3
+  footer4: Footer 4
+  page_bottom: 'Page Bottom'

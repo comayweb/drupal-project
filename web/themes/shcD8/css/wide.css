@@ -1,0 +1,237 @@
+@media all and (min-width: 1230px) {
+
+html {
+    font-size: 19px;
+}
+
+h1 {
+	font-size: 175%;
+}
+
+h2 {
+	font-size: 160%;
+}
+
+h3 {
+	font-size: 145%;
+}
+
+h4 {
+	font-size: 130%;
+}
+
+h5 {
+	font-size: 115%;
+}
+
+h6 {
+	font-size: 100%;
+}
+
+header::before {
+    top: 102px;
+}
+
+.block-responsive-menu-horizontal-menu {
+    font-size: 100%;
+}
+
+.horizontal-menu > li > a {
+    text-decoration: none;
+    padding: 2em 3em;
+}
+
+.full-width-wrapper.branding, header::after {
+    width: 480px;
+    height: 396px;
+    top: -174px;
+    left: -109px;
+}
+
+#block-logo {
+    width: 200px;
+    margin-top: -64px;
+    margin-left: -110px;
+}
+
+#block-logo p {
+    font-size: 31px;
+}
+
+.full-width-wrapper.header {
+    padding-top: 132px;
+}
+
+.path-frontpage #block-frontpagetoppicture {
+	height: calc(100vh - 132px);
+}
+
+
+/* content */
+
+.region {
+    width: 1190px;
+}
+
+.region-footer1, .region-footer2, .region-nav, .region-header {
+    width: auto;
+}
+
+.page-node-type-paragraphs .field--name-field-paragraph .paragraph > div {
+    width: 1190px;
+}
+
+.page-node-type-paragraphs .field--name-field-paragraph .paragraph--type--p4-full-image > div {
+    width: auto;
+}
+
+.page-node-type-paragraphs .region-content > * {
+    width: 1190px;
+}
+
+.paragraph--type--why-shc .title, .path-about-us-our-process .page-title, .page-node-type-project-subcategory .page-title, .page-node-type-project-category .page-title, .paragraph--type--p1-full-width .title {
+    width: 74%;
+}
+
+.small-image ~ .body, .small-image ~ .field--name-body {
+    width: 74%;
+}
+
+.layout-content.full-width-wrapper {
+    padding-top: 30px;
+}
+
+.region-highlighted {
+    padding-top: 30px;
+}
+
+#block-menu-2 {
+    padding-top: 40px;
+}
+
+#block-menu-2 li, #block-menu-2 li:nth-child(2n) {
+    padding: 1.1em 0;
+}
+
+#block-menu-2 a, .button.arrow a {
+    padding: 0px 100px 0px 30px;
+    line-height: 2.5;
+    font-size: 140%;
+}
+
+#block-menu-2 a::after, .button.arrow a::after {
+    padding-left: 20px;
+    line-height: 2;
+    min-width: 34px;
+}
+
+.paragraph--type--p5-full-text.ready-to-talk h2 {
+    padding-right: 38px;
+    font-size: 200%;
+}
+
+.paragraph--type--p5-full-text.ready-to-talk .field--name-field-body {
+    font-size: 155%;
+}
+
+.paragraph--type--p5-full-text.why-choose {
+    font-size: 120%;
+}
+
+.paragraph--type--p5-full-text.why-choose li {
+    margin: 15px 0px 15px 7%;
+}
+
+.block-views-blockproject-photo-galleries-block-1 .views-row, .block-views-blockproject-photo-galleries-block-1 .views-row:nth-child(2n) {
+    max-width: none;
+    width: 30%;
+}
+
+.paragraph--type--faq, .paragraph--type--why-shc {
+    padding-bottom: 60px;
+}
+
+
+/* catalogs */
+
+.catalog {
+    width: 30%;
+    margin-right: 5%;
+    font-size: 90%;
+    max-width: none;
+}
+
+/* footer */
+
+#block-logoandtagline {
+    margin-bottom: 42px;
+}
+
+.footer4 #footer-logo {
+    width: 200px;
+}
+
+.footer4 #tagline p {
+    font-size: 164%;
+    margin: 58px 0 0 12%;
+}
+
+.paragraph--type--p2-half-left, .full-width-wrapper.footer1 {
+    padding-right: 90px;
+    height: 690px;
+}
+
+.paragraph--type--p3-half-right, .full-width-wrapper.footer2 {
+    padding-left: 90px;
+    height: 690px;
+}
+
+.paragraph--type--p2-half-left > div, .paragraph--type--p3-half-right > div, .region-footer1, .region-footer2 {
+    max-width: 505px;
+}
+
+form .form-submit {
+    font-size: 145%;
+}
+
+.full-width-wrapper.footer3 {
+    padding-top: 60px;
+    padding-bottom: 64px;
+}
+
+#block-sociallinks p {
+    margin: .8em 0 0 6em;
+}
+
+#block-sociallinks p img {
+    height: 70px;
+}
+
+.footer4 {
+    padding: 135px 20px 30px;
+}
+
+#block-contactinfo h5 {
+    margin: 0.1em 0 .5em;
+}
+
+#block-requestacatalog h2, #block-receiveournewsletter h2 {
+	margin-top: .2em;
+    font-size: 130%;
+}
+
+.page-node-type-gallery .gallery-picture:nth-child(2n+1), .page-node-type-gallery .gallery-picture {
+    max-width: none;
+    width: 29%;
+}
+
+.page-node-type-gallery .gallery-picture:first-child {
+    max-width: none;
+    width: 62%;
+}
+
+
+
+
+
+}

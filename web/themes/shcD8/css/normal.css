@@ -1,0 +1,315 @@
+@media all and (min-width: 900px) {
+
+
+/* header */
+
+header::before {
+    top: 74px;
+}
+
+/* menu */
+
+.block-responsive-menu-horizontal-menu {
+    font-size: 90%;
+}
+
+.horizontal-menu > li > a, .horizontal-menu > li li > a {
+    padding: 1.7em 2.1em;
+}
+
+.full-width-wrapper.header {
+    padding-top: 104px;
+}
+
+.path-frontpage #block-frontpagetoppicture {
+	height: calc(100vh - 104px);
+	background-image: url(/themes/shcD8/images/new-bank-barn-1845.jpg);
+}
+
+
+/* branding */
+
+.full-width-wrapper.branding, header::after {
+    width: 360px;
+    height: 297px;
+    top: -128px;
+    left: -86px;
+}
+
+#block-logo {
+    width: 150px;
+    margin-top: -52px;
+    margin-left: -75px;
+}
+
+#block-logo p {
+    font-size: 23px;
+    margin-top: 2px;
+}
+
+
+/* content */
+/* home */
+.button.arrow a {
+    padding: 0px 90px 0px 24px;
+    line-height: 2.3;
+}
+
+.region {
+	width: 860px;
+	margin: 0 auto;
+}
+
+.page-node-type-paragraphs .field--name-field-paragraph .paragraph > div {
+    width: 860px;
+    margin: 0 auto;
+}
+
+.page-node-type-paragraphs .field--name-field-paragraph .paragraph--type--p4-full-image > div {
+    width: auto;
+}
+
+.region-footer1, .region-footer2, .region-nav, .region-header {
+	width: auto;
+}
+
+.paragraph {
+    padding: 100px 20px;
+}
+
+.paragraph--type--p4-full-image {
+    padding: 0;
+}
+
+.paragraph--type--p1-full-width {
+	padding: 110px 20px;
+}
+
+.paragraph--type--why-shc .title, .path-about-us-our-process .page-title, .page-node-type-project-subcategory .page-title, .page-node-type-project-category .page-title, .paragraph--type--p1-full-width .title {
+    width: 66%;
+    float: right;
+    margin-top: 0px;
+}
+
+.small-image {
+    margin-top: 10px;
+}
+
+.small-image ~ .body, .small-image ~ .field--name-body{
+    width: 66%;
+    float: right;
+}
+
+.button.arrow {
+    clear: right;
+}
+
+.paragraph--type--p5-full-text.ready-to-talk h2 {
+    padding-right: 17px;
+    padding-top: 10px;
+    font-size: 150%;
+}
+
+.paragraph--type--p5-full-text.ready-to-talk .field--name-field-body {
+    float: left;
+    font-size: 120%;
+    padding-top: 9px;
+}
+
+.paragraph--type--p5-full-text.why-choose .field--name-field-body {
+    font-size: 130%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.paragraph--type--p5-full-text.why-choose li {
+    margin: 9px 0px 9px 7%;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+
+/* category pages */
+
+.path-about-us-our-process .block-page-title-block, .page-node-type-project-subcategory .block-page-title-block, .page-node-type-project-category .block-page-title-block {
+	padding-top: 60px;
+}
+
+#block-menu-2 {
+	clear: both;
+	font-size: 90%;
+	padding-top: 30px;
+}
+
+#block-menu-2 li, #block-menu-2 li:nth-child(2n) {
+    width: 30%;
+    margin-right: 5%;
+}
+
+#block-menu-2 li:nth-child(3n+0) {
+    margin-right: 0;
+}
+
+.layout-content.full-width-wrapper {
+    padding-bottom: 100px;
+}
+
+
+/* subcategory */
+
+.block-views-blockproject-photo-galleries-block-1 .views-row, .block-views-blockproject-photo-galleries-block-1 .views-row:nth-child(2n) {
+    max-width: 30%;
+    margin: 1% 5% 1% 0;
+}
+
+.block-views-blockproject-photo-galleries-block-1 .views-row:nth-child(3n+0) {
+    margin-right: 0;
+}
+
+.block-views-blockproject-photo-galleries-block-1 h6 {
+    font-size: 78%;
+}
+
+
+/* gallery */
+
+.node--type-gallery .body {
+    width: 29%;
+    float: left;
+    margin: 1% 2%;
+}
+
+.page-node-type-gallery .gallery-picture:nth-child(2n+1), .page-node-type-gallery .gallery-picture {
+    max-width: 29%;
+    margin: 2%;
+}
+
+.page-node-type-gallery .gallery-picture:first-child {
+    max-width: 62%;
+}
+
+
+/* Why SHC */
+
+.page-node-type-paragraphs .region-content > * {
+    width: 860px;
+}
+
+.page-node-type-paragraphs .layout-content.full-width-wrapper .region-content {
+    padding-top: 20px;
+}
+
+.paragraph--type--faq, .paragraph--type--why-shc {
+    padding: 0 20px 30px;
+}
+
+
+/* Contact SHC */
+
+.node--type-contact-page .field--name-body {
+    width: 43%;
+    margin-right: 14%;
+}
+
+.node--type-contact-page .field--name-field-contact-form {
+    width: 43%;
+}
+
+#block-stablehollowconstructionservicearea-2 p:last-child, #block-stablehollowconstructionservicearea p:last-child {
+    text-align: center;
+}
+
+#block-stablehollowconstructionservicearea-2 p:last-child img, #block-stablehollowconstructionservicearea p:last-child img {
+    max-width: 370px;
+    display: inline-block;
+}
+
+
+/* footer */
+
+#block-logoandtagline {
+    margin-bottom: 33px;
+}
+
+.footer4 #footer-logo {
+    width: 160px;
+}
+
+.footer4 #tagline p {
+    font-size: 142%;
+    margin: 46px 0 0 12%;
+}
+
+.paragraph--type--p2-half-left, .full-width-wrapper.footer1 {
+    padding-right: 60px;
+    height: 650px;
+}
+
+.paragraph--type--p3-half-right, .full-width-wrapper.footer2 {
+    padding-left: 60px;
+    height: 650px;
+}
+
+.paragraph--type--p2-half-left > div, .paragraph--type--p3-half-right > div, .region-footer1, .region-footer2 {
+    max-width: 370px;
+}
+
+#block-sociallinks p {
+    margin: 1.3em 0 0 4.6em;
+}
+
+#block-sociallinks p img {
+    height: 50px;
+}
+
+.footer4 {
+    padding: 100px 20px 20px;
+}
+
+#block-contactinfo {
+    width: 33%;
+    padding-right: 4%;
+}
+
+#block-shcd8-footer {
+    width: 27%;
+    padding: 0 4% 0 0;
+}
+
+#block-receiveournewsletter {
+    width: 32%;
+    padding: 0;
+    clear: none;
+    margin-top: 0;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#block-requestacatalog {
+    width: 32%;
+    padding: 0;
+    margin-top: 0;
+    float: right;
+    clear: right;
+    margin-bottom: 120px;
+}
+
+#block-requestacatalog h2, #block-receiveournewsletter h2 {
+    margin-top: .5em;
+    font-size: 100%;
+}
+
+#block-copyrightlinktorosewood .right {
+    width: auto;
+}
+
+footer::after {
+    bottom: -29px;
+}
+
+.catalog {
+    font-size: 90%;
+}
+
+}

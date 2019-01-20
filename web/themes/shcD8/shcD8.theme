@@ -1,0 +1,10 @@
+<?php
+/**
+ * This preprocess function gets the path of the page so that it can be added as a class on the body tag. See the template html.html.twig to see the class implemented.
+ */
+
+function shcD8_preprocess_html(&$variables) {
+  $current_path = \Drupal::service('path.current')->getPath();
+  $variables['current_path'] = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
+}
+?>

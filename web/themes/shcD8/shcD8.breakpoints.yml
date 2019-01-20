@@ -1,0 +1,28 @@
+shcD8.mobile:
+  label: mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+shcD8.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 700px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+shcD8.normal:
+  label: normal
+  mediaQuery: 'all and (min-width: 900px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+shcD8.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 1230px)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 2x
